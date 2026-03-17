@@ -51,7 +51,7 @@ The system manages the complete lifecycle:
 
 | | |
 |---|---|
-| <img src="screenshots/reservation-app-home-mock.png" width="100%" /> | <img src="screenshots/reservation-app-section-mock.png" width="100%" /> |
+| <img src="screenshots/reservation-app-home-mock.png" height="300"/> | <img src="screenshots/reservation-app-section-mock.png" height="300"/> |
 
 <p align="center"><em>Interactive floor navigation and desk-level reservation interface with real-time availability</em></p>
 
