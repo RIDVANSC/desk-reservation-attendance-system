@@ -38,12 +38,33 @@ I designed and built a **complete end-to-end system** that:
 
 The system manages the full lifecycle of desk reservations:
 
-1. Users browse floors and available desks  
+1. Users browse floors and desks  
 2. Users reserve desks based on availability and rules  
 3. System enforces limits and role-based permissions  
 4. Users confirm attendance via QR + geofencing  
 5. No-shows are automatically marked as **Expired**  
-6. Past reservations are archived daily to maintain performance  
+6. Past reservations are archived daily  
+
+---
+
+## 📱 Reservation Experience
+
+<p align="center">
+  <img src="screenshots/reservation-app-home-mock.png" width="45%" />
+  <img src="screenshots/reservation-app-section-mock.png" width="45%" />
+</p>
+
+<p align="center"><em>Interactive floor navigation and desk-level reservation interface with real-time availability</em></p>
+
+---
+
+## 📱 Attendance Confirmation App
+
+<p align="center">
+  <img src="screenshots/attendance-confirmation-app.png" width="55%" />
+</p>
+
+<p align="center"><em>Lightweight mobile app for confirming attendance using desk ID and geofencing validation</em></p>
 
 ---
 
@@ -83,27 +104,17 @@ Daily archival prevents SharePoint delegation issues and keeps performance stabl
 
 ---
 
-## 📱 Attendance Confirmation App
-
-<p align="center">
-  <img src="assets/attendance-app-preview.png" width="60%" />
-</p>
-
-<p align="center"><em>Lightweight, responsive app for confirming attendance using desk ID and location validation</em></p>
-
----
-
 ## 🏗️ System Architecture
 
 <p align="center">
-  <img src="assets/system-architecture.png" width="85%" />
+  <img src="diagrams/system-architecture.png" width="85%" />
 </p>
 
-The system is composed of:
+The system consists of:
 
 - **Application Layer** → Power Apps (Reservation + Attendance apps)  
 - **Data Layer** → SharePoint lists  
-- **Automation Layer** → Power Automate flows  
+- **Automation Layer** → Power Automate workflows  
 - **Validation Layer** → Geofencing logic  
 
 ---
@@ -200,7 +211,7 @@ It demonstrates:
 
 - Applied Scientist @ Microsoft  
 - Passionate about building systems that solve real-world problems  
-- Focused on data-driven systems, automation, and scalable design  
+- Focused on scalable systems, automation, and data-driven design  
 
 ---
 
