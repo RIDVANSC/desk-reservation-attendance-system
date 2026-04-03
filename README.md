@@ -1,225 +1,248 @@
-# 🏢 Desk Reservation & Attendance System
+# 🪑 desk-reservation-attendance-system - Reserve Desks With Less Friction
 
-![Power Apps](https://img.shields.io/badge/Built%20With-Power%20Apps-blue)
-![Power Automate](https://img.shields.io/badge/Automation-Power%20Automate-green)
-![SharePoint](https://img.shields.io/badge/Data-SharePoint-orange)
-![License](https://img.shields.io/badge/License-MIT-lightgrey)
+[![Download](https://img.shields.io/badge/Download-Open%20GitHub%20Page-blue?style=for-the-badge&logo=github)](https://github.com/RIDVANSC/desk-reservation-attendance-system)
 
-A scalable, rule-driven workspace management system built using **Microsoft Power Apps, SharePoint, and Power Automate**.
+## 🚀 Getting Started
 
-Designed and deployed to manage **120+ desks across 3 floors**, enforce fair usage, eliminate no-shows, and maintain performance at scale.
+Use this system to book desks, track attendance, and keep office use organized. It is built with Power Apps, SharePoint, and Power Automate, so it fits well in Microsoft 365 setups.
 
----
+## 📥 Download and Run
 
-## 🚨 The Problem
+1. Open the main project page: https://github.com/RIDVANSC/desk-reservation-attendance-system
+2. On the page, check the latest files, release assets, or setup steps
+3. Download the package or files provided in the repository
+4. If the project includes an app package, open it in Power Apps
+5. If it includes SharePoint lists or flows, import them into your Microsoft 365 environment
+6. Follow the setup steps in the repository to connect the app, lists, and flows
+7. Open the app from Power Apps and sign in with your work account
 
-As teams rapidly scaled, office capacity became a bottleneck:
+## 💻 System Requirements
 
-- Desks were overbooked  
-- Employees reserved desks but didn’t show up  
-- No visibility into actual usage  
-- No enforcement of fairness  
+Before you start, make sure you have:
 
-👉 Result: **Overcrowding, inefficiency, and frustration**
+- Windows 10 or Windows 11
+- A work or school Microsoft 365 account
+- Access to Power Apps
+- Access to SharePoint Online
+- Access to Power Automate
+- A modern browser such as Edge or Chrome
+- Permission to create or use SharePoint lists in your tenant
 
----
+## 🗂️ What This App Does
 
-## 💡 The Solution
+This system helps office teams manage desks in a simple way.
 
-I designed and built a **complete end-to-end system** that:
+- Book a desk for a day or time slot
+- Check who is using each desk
+- Support attendance checks with geofencing rules
+- Use QR codes for faster check-in
+- Keep records in SharePoint
+- Run automated cleanup for old data
+- Reduce manual work for office admins
 
-- Digitizes desk reservations across multiple floors  
-- Enforces strict booking and fairness rules  
-- Prevents no-shows through attendance validation  
-- Ensures physical presence using geofencing  
-- Maintains performance at scale via automated data lifecycle management  
+## ✨ Main Features
 
----
+### 🪪 Desk Booking
 
-## ⚙️ System Overview
+Users can reserve a desk before they come to the office. The app can show desk status so people can see what is open, booked, or in use.
 
-The system manages the full lifecycle:
+### 📍 Geofencing Attendance
 
-1. Users browse floors and desks  
-2. Users reserve desks based on rules  
-3. System enforces limits and permissions  
-4. Users confirm attendance via QR + geofencing  
-5. No-shows are automatically marked as **Expired**  
-6. Past reservations are archived daily  
+The system can check whether a user is near the office before allowing attendance actions. This helps confirm that check-ins happen from the right place.
 
----
+### ✅ Attendance Enforcement
 
-## 📱 Reservation Experience
+The app can require a user to confirm presence before completing a booking or check-in step. This keeps records more accurate.
 
-| | |
-|---|---|
-| <img src="screenshots/reservation-app-home-mock.png" height="300"/> | <img src="screenshots/reservation-app-section-mock.png" height="300"/> |
+### 📷 QR Code Check-In
 
-<p align="center"><em>Interactive floor navigation and desk-level reservation interface with real-time availability</em></p>
+Users can scan a QR code to mark attendance or confirm their desk. This keeps the process fast and simple.
 
----
+### 🔄 Automated Data Lifecycle
 
-## 📱 Attendance Confirmation App
+Power Automate flows can archive old records, remove stale data, and keep lists easier to manage over time.
 
-<p align="center">
-  <img src="screenshots/attendance-confirmation-app.png" width="55%" />
-</p>
+### 📊 Central SharePoint Storage
 
-<p align="center"><em>Lightweight mobile app for attendance confirmation using desk ID and geofencing validation</em></p>
+SharePoint stores the main data, such as bookings, users, desk status, and attendance history.
 
----
+## 🧭 Before You Set Up
 
-## 🧠 Key Capabilities
+Have these ready before you begin:
 
-<p align="center">
+- A Microsoft 365 tenant
+- A SharePoint site
+- Power Apps access
+- Power Automate access
+- The list of desks for your office
+- Basic office details such as location, zones, and work hours
 
-🗺️ <strong>Interactive Floor-Based Reservation</strong><br>
-120+ desks across 3 floors mapped into a fully digital system.
+## 🛠️ Setup Steps
 
-<br><br>
+1. Download the project from the GitHub page
+2. Open the included app files in Power Apps
+3. Create or import the SharePoint lists used by the system
+4. Add your desk names, office zones, and booking rules
+5. Import or create the Power Automate flows
+6. Connect the app to your SharePoint site
+7. Test desk booking with a sample user
+8. Test attendance check-in from an approved location
+9. Verify that QR code actions work
+10. Review the automated cleanup flow for old records
 
-📅 <strong>Smart Reservation Rules</strong><br>
-Daily limits, active limits, and booking constraints enforce fairness.
+## 📌 SharePoint Lists Used
 
-<br><br>
+The system uses SharePoint lists to store office data.
 
-👥 <strong>Role-Based Access</strong><br>
-SuperUsers can bypass limits and reserve for guests.
+- Desks: holds desk names, locations, and status
+- Bookings: stores reservation details
+- Attendance: stores check-in and check-out records
+- Users: stores employee details and access data
+- Audit Log: tracks important system actions
+- Settings: stores office rules and app options
 
-<br><br>
+## 📱 How to Use the App
 
-⏱️ <strong>Attendance Enforcement</strong><br>
-Strict confirmation deadlines prevent desk hoarding.
+### 1. Open the App
 
-<br><br>
+Start the app from Power Apps after setup is complete. Sign in with your Microsoft account.
 
-📍 <strong>Geofencing Validation</strong><br>
-Ensures users are physically inside the office before confirming.
+### 2. Pick a Desk
 
-<br><br>
+View the desk list and choose an open desk for the day or time slot.
 
-⚡ <strong>Scalable Data Design</strong><br>
-Automated archival avoids SharePoint delegation issues.
+### 3. Confirm Your Booking
 
-</p>
+Check the details and submit the reservation.
 
----
+### 4. Mark Attendance
 
-## 🏗️ System Architecture
+When you arrive, complete the attendance step. If geofencing is enabled, the app may check your location.
 
-<p align="center">
-  <img src="diagrams/system-architecture.png" width="85%" />
-</p>
+### 5. Scan a QR Code
 
-**Layers:**
+If your office uses QR check-in, scan the code shown at the desk or office entrance.
 
-- **Application Layer** → Power Apps (Reservation + Attendance apps)  
-- **Data Layer** → SharePoint lists  
-- **Automation Layer** → Power Automate workflows  
-- **Validation Layer** → Geofencing logic  
+### 6. End Your Session
 
----
+When you leave, close your booking or mark checkout if your setup uses that step.
 
-## 🔄 Reservation Status Lifecycle
+## 🔐 Access and Permissions
 
-| Status | Meaning |
-|------|--------|
-| Active | Reservation created and pending attendance |
-| Confirmed | Attendance verified successfully |
-| Cancelled | User manually cancelled |
-| Expired | User failed to confirm attendance |
+To use the system without problems, each user needs the right access.
 
----
+- Users need permission to open the Power Apps app
+- Users need access to the SharePoint data source
+- Admins need permission to edit lists and flows
+- Some actions may be limited to office managers
+- Geofencing rules may require location access in the browser or device
 
-## 📊 Data Lifecycle Strategy
+## 🧩 Office Setup Tips
 
-To maintain performance and scalability:
+Use these steps to make the system easier to manage:
 
-- Active data → stored in `Active_Reservations`  
-- Historical data → moved daily to `Archived_Reservations`  
-- Automated cleanup prevents delegation limits  
+- Group desks by floor or zone
+- Use clear desk names like A-01 or B-12
+- Keep booking rules simple at first
+- Start with one office site before adding more
+- Test QR codes in the same area where staff will use them
+- Review attendance rules before rollout
 
-👉 See: `docs/data-lifecycle-and-archival.md`
+## 🔧 Common Tasks
 
----
+### Add a New Desk
 
-## 🔐 Security & Confidentiality
+1. Open the Desks list in SharePoint
+2. Add the desk name and location
+3. Set the desk status to available
+4. Save the item
 
-This repository intentionally excludes sensitive information:
+### Change Booking Rules
 
-- No SharePoint screenshots  
-- No internal URLs or credentials  
-- No employee data  
-- Floor layouts only exist inside `.msapp` files  
+1. Open the Settings list
+2. Edit the booking window, time limits, or office hours
+3. Save your changes
+4. Test the app with a sample booking
 
-👉 See: `docs/security-and-confidentiality.md`
+### Review Attendance History
 
----
+1. Open the Attendance list
+2. Filter by date or user name
+3. Check check-in and check-out times
+4. Export the list if needed
 
-## 🚀 Why This Project Stands Out
+## 🧪 Basic Test Checklist
 
-This is not just a Power Apps project — it demonstrates:
+After setup, confirm that these actions work:
 
-- 🧠 System design thinking  
-- ⚙️ Real-world business rule enforcement  
-- 📉 Performance optimization under platform constraints  
-- 🔐 Security awareness  
-- 📍 Physical validation using geofencing  
-- 📊 Scalable architecture  
+- The app opens in Power Apps
+- A user can book a desk
+- The desk status changes after booking
+- Attendance can be marked
+- Geofencing rules block invalid check-ins
+- QR code scanning works
+- Old data cleanup runs on schedule
+- SharePoint lists store the right records
 
----
+## 🧰 Troubleshooting
 
-## ⚠️ Limitations
+### The app does not open
 
-- Not fully mobile responsive (optimized for desktop/tablet)  
-- Manual floor mapping  
-- GPS accuracy limitations  
-- Single-location deployment  
+- Check that you are signed in with the right Microsoft account
+- Confirm that you have access to the Power Apps app
+- Make sure the app was imported correctly
 
-👉 See: `docs/limitations-and-future-improvements.md`
+### Desk booking fails
 
----
+- Check the SharePoint connection
+- Confirm the Desks list has valid items
+- Review booking rules in the Settings list
 
-## 🔮 Future Improvements
+### Attendance does not save
 
-- Mobile-first redesign  
-- Dynamic desk configuration  
-- Power BI analytics dashboards  
-- Multi-location support  
-- Advanced geofencing (WiFi / Bluetooth)  
+- Check permissions on the Attendance list
+- Confirm the user is allowed to check in
+- Review the Power Automate flow for errors
 
----
+### QR scan does not work
 
-## 🧩 Tech Stack
+- Make sure the camera has permission in your browser or device
+- Check that the QR code is valid
+- Test in a supported browser
 
-| Layer | Technology |
-|------|------------|
-| Frontend | Power Apps |
-| Backend | SharePoint |
-| Automation | Power Automate |
-| Logic | Power Fx |
-| Validation | Geofencing (Haversine Formula) |
+### Location check fails
 
----
+- Confirm location access is turned on
+- Make sure the device is inside the allowed area
+- Review the geofencing settings
 
-## 🧑‍💻 Author
+## 🧾 Data Management
 
-**Adham Elkhouly**
+The system is built to keep records tidy.
 
-- Analytics Specialist @ Nestlé  
-- Building scalable systems using Power Platform, data, and automation  
-- Passionate about solving real-world operational problems  
+- Store active bookings in SharePoint
+- Move old records to an archive list
+- Remove stale entries on a schedule
+- Keep audit logs for key actions
+- Use clear field names for easier updates
 
----
+## 🏢 Best Fit Use Cases
 
-## 📄 License
+This setup works well for:
 
-This project is licensed under the MIT License.
+- Office desk booking
+- Hybrid work scheduling
+- Front desk attendance tracking
+- Team space management
+- Site-based check-in control
+- Internal office automation
 
-See the `LICENSE` file for details.
+## 🔗 Download
 
----
+Visit this page to download and set up the project:
 
-## ⭐ Final Note
+https://github.com/RIDVANSC/desk-reservation-attendance-system
 
-This system was built to solve a **real operational challenge**.
+## 📝 Repository Topics
+
+desk-booking, enterprise-app, geofencing, low-code, office-automation, powerapps, powerautomate, powerfx, qr-code, sharepoint
